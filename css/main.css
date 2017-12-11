@@ -72,8 +72,25 @@ h2 {
   font-weight: 300;
 }
 
-.text-center {
-  text-align: center;
+.text-studio, .contact {
+  text-align: left;
+  padding: 40px;
+}
+.text-studio p {
+  line-height: 30px;
+}
+.text-studio .btn {
+  background-color: #ffc107;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 0;
+  padding: 10px;
+  width: 50%;
+  /*outline: 1px solid green;*/
+}
+h3, p {
+  padding-bottom: 15px;
 }
 
 .bg-header {
@@ -89,12 +106,22 @@ h2 {
 }
 .col-section {
   outline: 1px solid red;
+  width: 100%;
+}
+.contact p:last-child span{
+  color: #007bff;
+}
+.card {
+  outline: 2px solid yellow;
+  padding: 20px;
+}
+.column {
+  outline: 2px solid black;
 }
 .row-section {
-  margin-left: 18%;
+  margin-left: 20%;
   outline: 1px solid blue;
   width: 300px;
-  
 }
 .content, figure {
   color: #393939;
@@ -104,6 +131,16 @@ h2 {
 }
 .content p {
   line-height: 1.5;
+}
+.btn-sect {
+  background-color: #ffc107;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  /*outline: 1px solid green;*/
+  padding: 10px 10px;
+  margin-left: 18%;
+  width: 50%;
 }
 .logo1 {
   background-image: url("../assets/img/img4.jpg");
@@ -133,4 +170,18 @@ h2 {
 /*Estilos a Footer*/
 footer {
   padding: 35px;
+}
+.text-center {
+  text-align: center;
+}
+.view-mobile {
+  display: block;
+}
+.view-desktop {
+  display: none;
+}
+/* estilos solos para desktop */
+ul li {
+  display: inline-block;
+  padding: 5px 15px;
 }
